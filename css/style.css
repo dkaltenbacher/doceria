@@ -1,3 +1,48 @@
+/* Header */
 html{
     font-family: 'Open Sans', sans-serif;
+    color: #373a3c;
+}
+
+a{
+    transition: 0,3s;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header{
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background: #006599;
+    padding-top: 40px;
+}
+
+.header h1{
+    color: #fff;
+    font-size:  32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header li{
+    padding: 20px;
+    /* margin-left: 50px; */
+    text-align: center;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header a:hover{
+    color: #f4ef5e;
 }

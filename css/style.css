@@ -4,10 +4,6 @@ html{
     color: #373a3c;
 }
 
-a{
-    transition: 0,3s;
-}
-
 .logo{
     width: 60px;
     height: 60px;
@@ -19,7 +15,7 @@ a{
 .header{
     position: fixed;
     height: 100%;
-    width: 300px;
+    width: 40%;
     background: #006599;
     padding-top: 40px;
 }
@@ -41,8 +37,32 @@ a{
     color: #fff;
     text-decoration: none;
     font-size: 16px;
+    transition: 0.4s;
 }
 
 .header a:hover{
     color: #f4ef5e;
+    font-size: 17px;
+}
+
+/* main */
+
+main{
+    position: absolute;
+    width: 60%;
+    margin-left: 40%;
+}
+
+/* Footer */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 14px;
+    background-color: #006599;
+    color: #fff;
 }
